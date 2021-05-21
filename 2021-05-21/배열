@@ -1,0 +1,34 @@
+package Test;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 1. 배열 구조(자료구조)
+		// 배열 구조 선언 -> 자료형, 길이
+		int [] a= {1,2,3,4,5};
+		
+		// 배열의 요소에 접근하는 방법. 배열이름[순서]
+		System.out.println(a[2]);
+		
+		// 추가 / 삭제 X -> 구현
+		a[2]=20;
+		System.out.println(a[2]);
+		
+		//선언
+		int b;
+		b=10;
+		int c=20;
+		
+		//배열선언 기본형->길이만큼 0으로 초기화
+		int [] arr = new int [100];
+		
+		//배열처음부터 끝까지 탐색
+		for(int tmp:arr) {
+			System.out.println(tmp);
+		}
+		
+	}
+	
+}
